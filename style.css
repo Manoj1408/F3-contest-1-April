@@ -1,0 +1,53 @@
+body{
+    background-color: black ;
+    color: white;
+}
+.container {
+    margin-top: 70px;
+    font-size: 20px;
+}
+.container .row {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    
+}
+.container .row .each{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container .row .each input{
+    margin-top: 5px;
+    width: 28vw;
+    padding: 5px 3px;
+}
+
+.container form button{
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+.show .eeach{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+
+    width: auto;
+    max-width: 500px;
+
+}
+.show .eeach p {
+    margin: 3px 15px;
+}
+
+.show .allEmployees .delete-btn{
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
